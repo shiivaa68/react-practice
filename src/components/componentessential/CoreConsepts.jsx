@@ -1,5 +1,5 @@
 import CoreConsept from "./Header/CoreConsept";
-import { CORE_CONCEPTS } from "../data";
+import { CORE_CONCEPTS } from "../../data";
 
 const CoreConsepts = () => {
   return (

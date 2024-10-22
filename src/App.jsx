@@ -1,15 +1,11 @@
-import Header from "./components/Header/Header.jsx";
-import CoreConsepts from "./components/CoreConsepts.jsx";
-import Examples from "./components/Examples.jsx";
+import EssencialReact from "./pages/EssencialReact";
+import TicTacToe from "./pages/TicTacToe";
 
 function App() {
   return (
     <>
-      <Header />
-      <main>
-        <CoreConsepts />
-        <Examples />
-      </main>
+      {/* <EssencialReact /> */}
+      <TicTacToe />
     </>
   );
 }

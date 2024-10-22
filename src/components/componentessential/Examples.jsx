@@ -3,7 +3,7 @@ import { useState } from "react";
 import Section from "./Section";
 import TabButton from "./TabButton";
 import Tabs from "./Tabs";
-import { EXAMPLES } from "../data";
+import { EXAMPLES } from "../../data";
 
 const Examples = () => {
   const [selectedTopic, setSelectedTopic] = useState();
