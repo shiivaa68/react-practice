@@ -7,7 +7,7 @@ const EssencialReact = () => {
   return (
     <>
       <Header />
-      <main>
+      <main >
         <CoreConsepts />
         <Examples />
       </main>

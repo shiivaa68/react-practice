@@ -5,8 +5,12 @@ import {
 
 export default function Results({ input }) {
   console.log(input, "input");
-  const resultData = calculateInvestmentResults( input );
-  console.log(resultData,'resultdata');
+  const resultData = calculateInvestmentResults(input);
+  console.log(resultData, "resultdata");
+
+  if (resultData.length === 0) {
+    return <p>invalid input data provided</p>;
+  }
 
   const initialInvestment =
     resultData[0].valueEndOfYear -
